@@ -5,11 +5,12 @@
 .container {
   margin: 0;
   padding: 0;
-  max-width: 960px;
+  max-width: 1500px;
 }
 .border {
   margin: 30px 20px;
   width: 470px;
+
 }
 
 .style {
@@ -44,7 +45,35 @@
   width: 470px;
 }
 .border1 {
-  margin: 80px 50px;
-  display: inline;
+  margin-top: 200px;
+  display: inline-block;
 }
+.text1 {
+  margin-top: 110px;
+  font-size: 14px;
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: left;
+  position: absolute;
+  width: 470px;
+}
+.image1{
+  width: 470px;
+}
+.zagolovok1 {
+  margin-top: 50px;
+  font-size: 30px;
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  position: absolute;
+}
+.style1 {
+  margin-top: 15px;
+  font-size: 14px;
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  position: absolute;
+}
+ 
 
