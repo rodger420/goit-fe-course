@@ -12,6 +12,7 @@
 
 .cart1 {
   margin: 40px;
+  width: 380px;
 }
 
 .style {
@@ -21,14 +22,17 @@
   text-transform: uppercase;
   line-height: 1.2;
   position: absolute;
+  width: 380px;
 }
 
 .zagolovok {
   margin-top: 50px;
-  font-size: 30px;
+  font-size: 25px;
   color: rgb(98, 98, 98);
   line-height: 1.2;
   position: absolute;
+  height: 800;
+  width: 380px;
 }
 .text {
   margin-top: 110px;
@@ -37,11 +41,13 @@
   line-height: 1.714;
   text-align: left;
   position: absolute;
-  width: 350px;
+  width: 380px;
 }
 
 .cart2 {
+  box-sizing: border-box;
   margin: 60px;
+  width: 380px;
 }
 
 .style1 {
@@ -51,6 +57,7 @@
   text-transform: uppercase;
   line-height: 1.2;
   position: absolute;
+  width: 380px;
 }
 
 .text1 {
@@ -60,13 +67,14 @@
   line-height: 1.714;
   text-align: left;
   position: absolute;
-  width: 350px;
+  width: 380px;
 }
 
 .zagolovok1 {
   margin-top: 50px;
-  font-size: 30px;
+  font-size: 25px;
   color: rgb(98, 98, 98);
   line-height: 1.2;
   position: absolute;
+  height: 800;
 }
