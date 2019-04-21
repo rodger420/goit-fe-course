@@ -1,0 +1,68 @@
+* {
+  font-family: "Playfair Display", serif;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.wrapper {
+  width: 901px;
+  margin: 0 auto;
+}
+.nav-page {
+  padding: 77px 104px 100px;
+}
+.menu {
+  vertical-align: middle;
+}
+.menu li {
+  display: inline-block;
+}
+.menu li:not(:last-child) {
+  margin-right: 100px;
+}
+.block {
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+
+.carts {
+  margin: 0 auto;
+  width: 901px;
+
+}
+.cart {
+  display: inline-block;
+  max-width: 421px;
+  vertical-align: middle;
+  font-size: 0;
+}
+
+.card-title {
+  font-size: 14px;
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.card-subtitle {
+  font-size: 30px;
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+}
+.card-description {
+  font-size: 14px;
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+}
