@@ -1,80 +1,38 @@
 * {
   font-family: "Playfair Display", serif;
 }
+img {
+  max-width: 100%;
+  height: auto;
+ }
 
 .carts {
   width: 960px;
+  margin: auto;
 }
-.cart{
+.cart {
   display: inline-block;
-  max-width: 350PX;
+  max-width: 350px;
+  vertical-align: top;
 }
 
-.cart1 {
-  margin: 40px;
-  width: 380px;
-}
-
-.style {
+.card-title{
   margin-top: 14px;
   font-size: 14px;
   color: rgb(180, 173, 158);
   text-transform: uppercase;
   line-height: 1.2;
-  position: absolute;
-  width: 380px;
 }
 
-.zagolovok {
-  margin-top: 50px;
+.card-subtitle{
+  margin-top: 30px;
   font-size: 25px;
   color: rgb(98, 98, 98);
   line-height: 1.2;
-  position: absolute;
-  height: 800;
-  width: 380px;
 }
-.text {
-  margin-top: 110px;
+.card-description{
+  margin-top: 60px;
   font-size: 14px;
   color: rgb(98, 98, 98);
   line-height: 1.714;
-  text-align: left;
-  position: absolute;
-  width: 380px;
-}
-
-.cart2 {
-  box-sizing: border-box;
-  margin: 60px;
-  width: 380px;
-}
-
-.style1 {
-  margin-top: 15px;
-  font-size: 14px;
-  color: rgb(180, 173, 158);
-  text-transform: uppercase;
-  line-height: 1.2;
-  position: absolute;
-  width: 380px;
-}
-
-.text1 {
-  margin-top: 110px;
-  font-size: 14px;
-  color: rgb(98, 98, 98);
-  line-height: 1.714;
-  text-align: left;
-  position: absolute;
-  width: 380px;
-}
-
-.zagolovok1 {
-  margin-top: 50px;
-  font-size: 25px;
-  color: rgb(98, 98, 98);
-  line-height: 1.2;
-  position: absolute;
-  height: 800;
 }
