@@ -4,7 +4,7 @@
 img {
   max-width: 100%;
   height: auto;
- }
+}
 
 .carts {
   width: 960px;
@@ -14,9 +14,10 @@ img {
   display: inline-block;
   max-width: 350px;
   vertical-align: top;
+  margin: 50px;
 }
 
-.card-title{
+.card-title {
   margin-top: 14px;
   font-size: 14px;
   color: rgb(180, 173, 158);
@@ -24,13 +25,13 @@ img {
   line-height: 1.2;
 }
 
-.card-subtitle{
+.card-subtitle {
   margin-top: 30px;
   font-size: 25px;
   color: rgb(98, 98, 98);
   line-height: 1.2;
 }
-.card-description{
+.card-description {
   margin-top: 60px;
   font-size: 14px;
   color: rgb(98, 98, 98);
