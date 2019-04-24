@@ -15,15 +15,14 @@ img {
   height: auto;
   display: block;
 }
-.wrapper {
-  width: 901px;
-  margin: 0 auto;
-}
+
 .nav-page {
   padding: 77px 104px 100px;
 }
 .menu {
   vertical-align: middle;
+  margin: 0 auto 0 50px;
+  padding: 0;
 }
 .menu li {
   display: inline-block;
@@ -36,17 +35,24 @@ img {
   text-align: center;
   text-decoration: none;
 }
+.wrapper {
+  width: 901px;
+  margin: 0 auto;
+}
 
 .carts {
-  margin: 0 auto;
-  width: 901px;
-
-}
-.cart {
-  display: inline-block;
-  max-width: 421px;
-  vertical-align: middle;
   font-size: 0;
+}
+
+.cart {
+  margin-right: 0;
+  margin-left: 0;
+  display: inline-block;
+  max-width: 420px;
+  vertical-align: top;
+}
+.cart:nth-child(2n) {
+  margin-left: 61px;
 }
 
 .card-title {
@@ -65,4 +71,20 @@ img {
   font-size: 14px;
   color: rgb(98, 98, 98);
   line-height: 1.714;
+}
+
+.last {
+  width: 901px;
+}
+.load_buttom {
+  font-size: 20px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 163px;
+  height: 60px;
+  line-height: 24px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px black;
 }
