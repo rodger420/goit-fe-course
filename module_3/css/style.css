@@ -35,6 +35,9 @@ img {
   text-align: center;
   text-decoration: none;
 }
+a:hover {
+  color: rgb(3, 169, 244);
+}
 .wrapper {
   width: 901px;
   margin: 0 auto;
@@ -42,11 +45,13 @@ img {
 
 .carts {
   font-size: 0;
+  margin-bottom: 45px;
 }
 
 .cart {
   margin-right: 0;
   margin-left: 0;
+  margin-bottom: 65px;
   display: inline-block;
   max-width: 420px;
   vertical-align: top;
@@ -73,18 +78,18 @@ img {
   line-height: 1.714;
 }
 
-.last {
+.wrapper {
   width: 901px;
 }
 .load_buttom {
-  font-size: 20px;
-  border: none;
-  margin: 0;
-  padding: 0;
-  width: 163px;
+  width: 165px;
   height: 60px;
-  line-height: 24px;
-  cursor: pointer;
-  background-color: #ffffff;
-  border: 1px black;
+  background-color: white;
+  border: 1px solid black;
+  color: rgb(98, 98, 98);
+  padding: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 65px;
 }
