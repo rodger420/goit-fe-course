@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.cart {
+  list-style: none;
+  float: left;
+  width: 100px;
+  text-align: center;
+  border: 1px solid;
+}
+
+.cart:hover {
+  background: red;
+}

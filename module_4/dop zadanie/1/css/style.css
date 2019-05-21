@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 950px;
+  margin: 0 auto;
+}
+
+.cart {
+  list-style: none;
+  float: left;
+  width: 100px;
+  text-align: center;
+  border: 1px solid;
+  color: #0E1116;
+}
+.cart:nth-child(3n-2) {
+  background: #0D5D56;
+}
+.cart:nth-child(3n-1) {
+  background:#5DB7DE;
+}
+.cart:nth-child(3n-3) {
+  background: #88292f;
+}
+.cart::before{
+  content: "\2192";
+}
+
+
