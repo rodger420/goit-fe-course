@@ -9,7 +9,8 @@ body {
 }
 
 .wrapper {
-
+  padding: 0;
+  margin: 0;
   margin-left: 40px;
 }
 
@@ -59,6 +60,9 @@ h1::after {
   margin: 30px auto 0;
 }
 
+a {
+  text-decoration: none;
+}
 .card {
   margin-right: 30px;
   margin-bottom: 30px;
@@ -70,14 +74,11 @@ h1::after {
 .card:nth-child(4n+1) {
   margin-right: 0;
 }
-.card-img {
-  width: 100%;
-}
+
 
 .card-img-wrp {
   height: 280px;
   overflow: hidden;
-  
 }
 
 .card-text-wrp {  
@@ -90,6 +91,9 @@ h1::after {
   font-family: "Roboto";
   text-transform: uppercase;
   transition-duration: 0.3s;
+}
+.card-title {
+  text-indent: 16px;
 }
 .card-title,
 .card-price {
@@ -155,6 +159,7 @@ button {
   color: wheat;
 }
 
+.card-link:focus { outline: none; }
 
 .card:hover .card-text-wrp { 
   background: rgb(26, 188, 156);
