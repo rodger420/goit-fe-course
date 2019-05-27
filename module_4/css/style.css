@@ -152,6 +152,7 @@ h3 {
 }
 
 button {
+  border: none;
   border-radius: 3px;
   background-color: rgb(78, 198, 171);
   width: 159px;
