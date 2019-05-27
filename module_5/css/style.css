@@ -51,27 +51,38 @@ body {
 .content {
   padding: 0 30px;
   width: 1170px;
-  margin: auto;
+  margin: 0 auto;
 }
 .slider {
   margin-bottom: 80px;
-  position: relative;
   height: 600px;
   background-image: url(../img/slider.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slider-item {
+  position: relative;
+  padding: 0 30px;
+  width: 1170px;
+  height: 600px;
+  margin: auto;
 }
 .slider-name {
+  width: 695px;
+  height: 100px;
   color: #fff;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  font-size: 50px;
+  font-size: 56px;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   text-align: left;
 }
 .small {
-  font-size: 20px;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
 }
 
 .slider-ctrl {
