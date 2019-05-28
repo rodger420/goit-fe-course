@@ -278,6 +278,7 @@ h2::after {
   overflow: hidden;
 }
 footer { 
+  font-size: 16px;
   position: relative;
   background: #323232;
   height: 90px;
@@ -286,9 +287,20 @@ footer {
   color: #fff;
 }
 .footer-link {
+  font-family: 'Open Sans', sans-serif;
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
+  text-transform: inherit;
+}
+.link {
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+}
+.link:hover {
+ color:rgb(69, 182, 161);
+   
 }
 
 
