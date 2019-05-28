@@ -123,6 +123,7 @@ h2::after {
 .content-list {
   background-color: rgb(233, 240, 253);
   padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .shop {
@@ -134,7 +135,11 @@ h2::after {
   display: inline-block;
   width: 255px;
   padding: 0 15px 0 15px;
+  
   /* margin: auto; */
+}
+.shop-card:hover .hover {
+  opacity: 0.549;
 }
 .card-text-wrp {
   font-weight: bold;
@@ -170,11 +175,12 @@ h2::after {
   background: indianred;
   border: 10px solid rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
-  opacity: 0.549;
   width: 225px;
   height: 280px;
   top: 0;
+  opacity: 0;
 }
+
 
 .icon li {
   display: inline-block;
@@ -189,6 +195,15 @@ h2::after {
   margin: 0;
   width: 166px;
 }
+.icon-link:hover .icon1 {
+  background-color: rgb(26, 188, 156);  
+}
+.icon-link:hover .icon2 {
+  background-color: rgb(26, 188, 156);  
+}
+.icon-link:hover .icon3 {
+  background-color: rgb(26, 188, 156);  
+}
 .icon-link a {
   float: left;
   text-decoration: none;
@@ -196,8 +211,31 @@ h2::after {
   height: 50px;
   border: 1px solid rgb(255, 255, 255);
 }
+.icon1 {
+  background-image: url(../img/icon/like.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon2 {
+  background-image: url(../img/icon/transform.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon3 {
+  background-image: url(../img/icon/clock.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
-.add-card a {
+.add-card {
+ text-transform: uppercase;
+ display: inline-block;
+ 
+}
+.by-card {
+  background-color: rgb(50, 50, 50);
+  font-size: 14px;
+  color: #fff;
   position: absolute;
   border: 1px solid rgb(255, 255, 255);
   width: 166px;
@@ -205,9 +243,31 @@ h2::after {
   left: 50%;
   top: 56%;
   transform: translateX(-50%);
-}
+  text-decoration: none;
+ }
 
-.visually-hidden {
+.text-wrp {
+   position: absolute;
+   top: 50%;
+   left: 35%;
+   transform: translateY(-50%);
+ }
+.by-card::before {
+   position: absolute;
+   vertical-align: middle;
+   display: inline-block;
+   width: 28px;
+   height: 28px;
+   content: '';
+   background-image: url(../img/icon/cash.png);
+   background-size: contain;
+   background-position: center;
+   top: 50%;
+   left: 10%;
+   transform: translateY(-50%);
+ }
+
+ .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
@@ -217,3 +277,19 @@ h2::after {
   width: 1px !important;
   overflow: hidden;
 }
+footer { 
+  position: relative;
+  background: #323232;
+  height: 90px;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+}
+.footer-link {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
