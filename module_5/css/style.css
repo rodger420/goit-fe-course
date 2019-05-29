@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 .wrapper {
   margin: 0 auto;
@@ -85,13 +84,15 @@ body {
 }
 
 .slider-ctrl {
-  background-color: rgb(78, 198, 171);
-  opacity: 0.651;
+  background-color: rgba(78, 198, 171, .6);
   position: absolute;
   border: none;
   width: 104px;
   height: 104px;
   transform: translateY(-50%);
+}
+.slider-ctrl:hover {
+  background-color: rgba(78, 198, 171, 1);  
 }
 
 .slider-ctrl-prev {
@@ -128,18 +129,18 @@ h2::after {
 
 .shop {
   list-style: none;
-  margin-left: 40px;
+  padding: auto;
 }
 .shop-card {
   position: relative;
   display: inline-block;
   width: 255px;
   padding: 0 15px 0 15px;
-  
-  /* margin: auto; */
 }
 .shop-card:hover .hover {
+  background-color: rgb(0, 0, 0);
   opacity: 0.549;
+  border: 10px solid rgb(255, 255, 255);
 }
 .card-text-wrp {
   font-weight: bold;
@@ -172,24 +173,16 @@ h2::after {
 
 .hover {
   position: absolute;
-  background: indianred;
-  border: 10px solid rgb(255, 255, 255);
-  background-color: rgb(0, 0, 0);
   width: 225px;
   height: 280px;
   top: 0;
-  opacity: 0;
+  margin: 0;
 }
-
 
 .icon li {
   display: inline-block;
 }
 .icon {
-  position: absolute;
-  top: 90px;
-  left: 50%;
-  transform: translateX(-50%);
   list-style: none;
   padding: 0;
   margin: 0;
@@ -204,47 +197,52 @@ h2::after {
 .icon-link:hover .icon3 {
   background-color: rgb(26, 188, 156);  
 }
-.icon-link a {
+.icons {
   float: left;
   text-decoration: none;
   width: 50px;
   height: 50px;
   border: 1px solid rgb(255, 255, 255);
 }
-.icon1 {
-  background-image: url(../img/icon/like.png);
+.icons {
   background-repeat: no-repeat;
   background-position: center;
+}
+.icon-link:hover {
+  background-color: rgb(26, 188, 156);
+}
+.icon1 {
+  background-image: url(../img/icon/like.png);
 }
 .icon2 {
   background-image: url(../img/icon/transform.png);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 .icon3 {
   background-image: url(../img/icon/clock.png);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
-.add-card {
- text-transform: uppercase;
- display: inline-block;
- 
-}
+
 .by-card {
+  position: absolute;
+  text-transform: uppercase;
   background-color: rgb(50, 50, 50);
   font-size: 14px;
   color: #fff;
-  position: absolute;
   border: 1px solid rgb(255, 255, 255);
-  width: 166px;
   height: 48px;
-  left: 50%;
-  top: 56%;
-  transform: translateX(-50%);
+  width: 167px;
   text-decoration: none;
  }
+
+
+.icon-list{
+  width: 167px;
+  height: 108px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .text-wrp {
    position: absolute;
