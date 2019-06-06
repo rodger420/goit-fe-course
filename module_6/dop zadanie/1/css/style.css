@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.flex-container {
+  width: 1000px;
+  margin: 20px auto;
+  background: indianred;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}

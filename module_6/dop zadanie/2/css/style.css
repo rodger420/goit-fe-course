@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.container {
+  width: 500px;
+  background: rgb(0, 0, 0, 0.2);
+  padding: 20px ;
+}
+
+.card {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid ;  
+  width: 250px; 
+  box-shadow: 0 0 10px rgba(0,0,0,0.5) ;
+}
+.headline {
+  transition-property: color;
+  transition-duration: 0.3s;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.headline:hover {
+  color: blue;
+  transform: scale(1.25);
+  transition: 0.2s;
+}
+.text {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+img:hover {
+  transform: rotate(5deg);
+  transition: 0.2s;
+}
+button {
+  transition-property: width;
+  transition-duration: 0.2s;
+  width: 100px;
+  height: 25px;
+  border: none;
+}
+
+button:hover {
+  width: 100%;
+}
