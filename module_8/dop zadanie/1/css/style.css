@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+body {
+  font-size: 20px;
+}
+.wrapper {
+  margin: 0;
+  padding: 0;
+}
+.container  {
+  width: 900px;
+  margin: 10px auto;
+  text-align: center;
+}
+td, th {
+  text-align: center;
+  padding: 8px 20px;
+  border: 2px solid black;
+  border-top: none;
+  }
+caption {
+  background:black;
+  color: #ffffff;
+}
+table {
+  border-collapse: collapse;
+}
+.caprion {
+  display: flex;
+}
+.capt:nth-child(1){
+  margin-left: 0;
+}
