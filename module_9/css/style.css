@@ -1,0 +1,201 @@
+* { 
+  box-sizing: border-box;
+}
+body { 
+  font-family: 'Roboto' 'Montserat';
+}
+.wrapper { 
+  min-width: 320px;
+  margin: 0 auto;
+}
+.promo { 
+  min-height: 540px;
+  background-image: url(../img/Background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* header */
+.login-link { 
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.2;
+  font-family: Monserat, sans-serif;
+  font-weight: 700;
+}
+.sign-link { 
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.2;
+  font-family: Monserat, sans-serif;
+  font-weight: 700;
+}
+.logo-link { 
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: Monserat, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.border { 
+  border: 1px solid transparent !important;
+  border-radius: 35px;
+  background-color: transparent !important;
+  padding: 8px 15px;
+}
+.sign-link:hover { 
+  border: 1px solid #fff !important;
+  text-decoration: none;
+  color: #fff;
+ }
+ .login-link:hover { 
+   border: 1px solid #fff !important;
+   text-decoration: none;
+   color: #fff; 
+ }
+ .logo-link:hover { 
+  border: 1px solid #fff !important;
+  text-decoration: none;
+  color: #fff; 
+  border-radius: 45px;
+  padding: 8px 15px;  
+ }
+ /* section holiday */
+ .holiday-button { 
+  border: 1px solid #ff4e50;
+  border-radius: 40px;
+  color: #ff4e50;
+  padding: 15px 30px;
+  cursor: pointer;
+  background: transparent;
+  font-family: Monserat, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 0 auto 100px;
+} 
+  .holiday-button:hover { 
+    background: #ff4e50;
+    color: #fff;
+  }
+.title-holiday { 
+  font-family: Monserat, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  line-height: 1.2; 
+}
+.sub-title-holiday { 
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 300;
+  text-align: center;
+}
+.partners-list { 
+  list-style: none;
+  padding: 0;
+}
+/* section partners */
+.img { 
+  position: relative;
+  width: 121px;
+  height: 121px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+.title-partners { 
+  font-family: Monserat, sans-serif;
+  font-size: 21.98px;
+  line-height: 1.2;
+  color: #000;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 20px;
+  padding-top: 73px;
+}
+.partners-list-image { 
+  margin-bottom: 25px;
+}
+.partner-list-name { 
+  margin: 0 20px 20px;
+  text-align: center;
+  font-family: Monserat, sans-serif;
+  font-size: 13.97px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #000;
+}
+.partners-list-post { 
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 13.97px;
+  line-height: 1.2;
+  color: #000;
+  text-align: center;
+  margin: 0 0 30px;
+  padding: 0 15%;
+}
+.partners-button { 
+  font-family: Monserat, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  border: 1px solid #ff4e50;
+  border-radius: 40px;
+  color: #ff4e50;
+  padding: 15px 55px;
+  cursor: pointer;
+  background: transparent;
+  margin: 0 auto 55px;
+}
+.partners-button:hover { 
+  background: #ff4e50;
+  color: #fff;
+  }
+  .social-link { 
+    position: absolute;
+    top: 81px;
+    left: 90px;
+    width: 40px;
+    height: 40px;
+    --radius: 40px;
+    border-radius: 40px;
+    background-color: #ffa507; 
+    border: 5px solid #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .botle { 
+    background-color: #ffa507; 
+    background-image: url(../img/social/botle.png);
+  }
+  .telegram { 
+    background-color: #4e73db; 
+    background-image: url(../img/social/telegram.png);
+  }
+  .coffe { 
+    background-color: #1cd7ad; 
+    background-image: url(../img/social/coffe.png);
+  }
+  .tv {  
+    background-color: #ff4e50;
+    background-image: url(../img/social/tv.png);
+  }
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
