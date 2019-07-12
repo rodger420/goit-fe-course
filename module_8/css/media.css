@@ -21,11 +21,11 @@
     .title-holiday { 
       margin: 0 0 35px;
     }
-    .promo { 
+    /* .promo { 
       background-image: url(../img/Background-tablet.jpg);
-      /* background-size: cover; */
+      background-size: cover;
       padding-bottom: 190px;
-    }
+    } */
     .partners{
         min-width: 670px;
         margin: 0 auto;
@@ -68,9 +68,9 @@
       justify-content: space-between;
       padding-top: 55px;
     }
-    .promo {
+    /* .promo {
       background-image: url(../img/Background-desktop.jpg);
-    }
+    } */
     .nav { 
       padding: 0;
     }
